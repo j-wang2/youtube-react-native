@@ -1,8 +1,8 @@
 
 import axios from 'axios';
+import { API_KEY } from 'react-native-dotenv';
 
 const API_URL = 'https://www.googleapis.com/youtube/v3/search';
-const API_KEY = 'AIzaSyCk7kqk492yGzeSFNnmjrDS453rG-bKI_4';
 
 const youtubeSearch = (term) => {
   const params = {
